@@ -1,0 +1,37 @@
+<!DOCTYPE html>
+<html lang="uk">
+<head>
+	<meta charset="UTF-8">
+	<meta http-equiv="X-UA-Compatible" content="IE=edge">
+	<meta name="viewport" content="width=device-width, initial-scale=1.0">
+	<title>Додавання нового коментаря</title>
+	<link rel="stylesheet" type="text/css" href="./style/add_comment.css">
+	<script src="https://cdnjs.cloudflare.com/ajax/libs/axios/1.3.6/axios.js" integrity="sha512-//dh2f858Fr7wqGN0IrKqOwzFRMSNDFepYnq0R0Nau+vpQRaUYwViFi7KVniyCALFPOaaMd1n38d5q0pboHjUw==" crossorigin="anonymous" referrerpolicy="no-referrer"></script>
+</head>
+<body>
+	<div class="header">
+		<a href="/">Перегляд статей</a>
+		<a href="/add_article/">Введення нової статті</a>
+	</div>
+	<br>
+	<div class="container">
+		<h2>ВВЕДЕННЯ  НОВОГО КОМЕНТАРЯ  :</h2>
+		<p> Стаття:</p>	
+        <select class="select">            
+        </select>
+        <br>
+		<p> Користувач:</p>	
+        <select class="select2">            
+        </select>
+        <br>
+		<p> Текст коментаря:</p>
+		<textarea class="textarea"></textarea>
+        <br><br>
+		<button class="button">Відправити</button>
+	</div>
+	
+	<script src="/js/add_comment.js"></script>
+	
+</body>		
+</html>
+
